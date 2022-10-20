@@ -1,0 +1,66 @@
+{
+    "cmds": {
+	"run-day": "ccc_sim_trader maker.json 20200715",
+	"run-all": "gen_dates.py -sd 20200715 -ed 20200915 | parallel -j 100 ccc_sim_trader maker.json",
+	"analyze-all": "sim_ana.py -sd 20200715 -ed 20200915 -p logs"
+    },
+    "instance": {
+        "license_id":"TRAIL001",
+        "license_key":"apifiny123456",
+    	"log_path": "logs",        
+        "name": "test_strat"
+    },
+    "sim": {
+        "delay_o2a_us": 30000,
+        "delay_a2m_us": 0
+    },
+    "risk_formulas": [
+        ["Standard_Risk", ["RiskFormula", {"components": [[["FXRLIEN", "TOUCOIN"], 1.0]]}]]
+    ],
+    "accounts": [
+        [101, ["Account", {"risk_formulas": ["Standard_Risk"], "id": 10001}]]
+    ],    
+    "fees": {
+        "TOUCOIN": {
+            "make": 0.0002,
+            "take": 0.0004
+        }
+    },    
+    "symbol_info": {
+        "FXRLIEN.TOUCOIN": {"ticksize": 0.005, "lotsize": 0.01, "min_order_size": 0.01, "price_precision": 2.3010299956639813, "qty_precision": 2.0, "multiple": 1.0, "coin": "FXR", "base_coin": "LIEN", "local_name": "FXR/LIEN", "ct_type": false},
+        "FXRLIEN.TOUCOIN_SWAP": {"ticksize": 0.01, "lotsize": 0.01, "min_order_size": 0.01, "price_precision": 2.0, "qty_precision": 2.0, "multiple": 1.0, "coin": "LTC", "base_coin": "USD", "local_name": "FXR/LIEN", "ct_type": "standard"}
+    }, 
+    "symbols": [
+        {"cid": 1001, "port": ["FXRLIEN", "TOUCOIN"]}
+    ],
+    "players": [
+	["SpotPlayer", ["CSV10Player", {"port": ["FXRLIEN", "TOUCOIN"], "path": "/data/toucoin"}]]
+    ],
+    "variables": [
+        ["FXRLIEN.TOUCOIN_trend30", ["Trend", {"pm": "FXRLIEN.TOUCOIN_midpx", "sampler": "TrendSampler"}]]
+    ],
+    "samplers":[
+	["TrendSampler", ["TimeSampler", {"msecs": 1000, "halflife": 1800}]]
+    ],
+    "pricing_models":[
+	["FXRLIEN.TOUCOIN_midpx", ["MidPx", {"port": ["FXRLIEN", "TOUCOIN"]}]]
+    ],
+    "models":[
+	["FXRLIEN.TOUCOIN_model", ["LinearModel", {"variable": "FXRLIEN.TOUCOIN_trend30"}]]
+    ],
+    "strategies": [                                 
+        ["FXRLIEN.TOUCOIN", [
+            "CCSimpleMakerStrategy", {
+                "symbol": "FXRLIEN",
+                "trade_market": "TOUCOIN",
+		"make_mid_pm": "FXRLIEN.TOUCOIN_midpx",
+		"account": 101,
+		"model": "FXRLIEN.TOUCOIN_model",
+		"use_bps_thold": true,
+		"make_thold": 3,
+		"order_notional": 100
+            }
+	]
+	]                          
+    ]
+}
