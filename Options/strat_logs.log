@@ -1,0 +1,430 @@
+INFO - ####2020-11-06 09:31:00####
+INFO - #####
+INFO - Liquid Cash: 100000
+INFO - Current Value: 100000
+INFO - #####
+INFO - ####2020-11-06 09:32:00####
+INFO - #####
+INFO - Liquid Cash: 100000
+INFO - Current Value: 100000
+INFO - #####
+INFO - ####2020-11-06 09:33:00####
+INFO - #####
+INFO - Liquid Cash: 100000
+INFO - Current Value: 100000
+INFO - #####
+INFO - ####2020-11-06 09:34:00####
+INFO - #####
+INFO - Liquid Cash: 100000
+INFO - Current Value: 100000
+INFO - #####
+INFO - ####2020-11-06 09:35:00####
+INFO - #####
+INFO - Liquid Cash: 100000
+INFO - Current Value: 100000
+INFO - #####
+INFO - ####2020-11-06 09:36:00####
+INFO - #####
+INFO - Liquid Cash: 100000
+INFO - Current Value: 100000
+INFO - #####
+INFO - ####2020-11-06 10:00:00####
+INFO - #####
+INFO - Liquid Cash: 100000
+INFO - Current Value: 100000
+INFO - #####
+INFO - ####2020-11-06 10:01:00####
+INFO - #####
+INFO - Liquid Cash: 100000
+INFO - Current Value: 100000
+INFO - #####
+INFO - ####2020-11-09 11:00:00####
+INFO - #####
+INFO - Liquid Cash: 100000
+INFO - Current Value: 100000
+INFO - #####
+INFO - ####2020-11-09 11:01:00####
+INFO - #####
+INFO - Liquid Cash: 100000
+INFO - Current Value: 100000
+INFO - #####
+INFO - ####2020-11-09 12:00:00####
+INFO - #####
+INFO - Liquid Cash: 100000
+INFO - Current Value: 100000
+INFO - #####
+INFO - ####2020-11-09 12:01:00####
+INFO - #####
+INFO - Liquid Cash: 100000
+INFO - Current Value: 100000
+INFO - #####
+INFO - ####2020-11-09 13:00:00####
+INFO - #####
+INFO - Liquid Cash: 100000
+INFO - Current Value: 100000
+INFO - #####
+INFO - ####2020-11-09 13:01:00####
+INFO - #####
+INFO - Liquid Cash: 100000
+INFO - Current Value: 100000
+INFO - #####
+INFO - ####2020-11-09 09:31:00####
+WARNING - The trade order: ('370.0_2020-11-30', 0.0, 261.7801047120419) is not valid!
+INFO - 379.0_2020-11-30: Shorting 0.0 shares at 1.35 | Going long 714.2857142857143 shares at 1.4
+INFO - Transaction Net Value: -1000.0
+INFO - 379.0_2020-11-27: Shorting 0.0 shares at 1.18 | Going long 813.0081300813008 shares at 1.23
+INFO - Transaction Net Value: -1000.0
+INFO - 410.0_2020-11-30: Shorting 0.0 shares at 0.04 | Going long 20000.0 shares at 0.05
+INFO - Transaction Net Value: -1000.0
+INFO - 382.0_2020-11-23: Shorting 0.0 shares at 0.58 | Going long 1612.9032258064517 shares at 0.62
+INFO - Transaction Net Value: -1000.0
+INFO - 377.0_2020-11-25: Shorting 0.0 shares at 1.42 | Going long 671.1409395973154 shares at 1.49
+INFO - Transaction Net Value: -1000.0
+INFO - 380.0_2020-11-23: Shorting 0.0 shares at 0.77 | Going long 1234.567901234568 shares at 0.81
+INFO - Transaction Net Value: -1000.0000000000001
+INFO - 390.0_2020-11-25: Shorting 0.0 shares at 0.26 | Going long 3448.2758620689656 shares at 0.29
+INFO - Transaction Net Value: -1000.0
+INFO - 378.0_2020-11-20: Shorting 0.0 shares at 0.88 | Going long 1123.5955056179776 shares at 0.91
+INFO - Transaction Net Value: -1022.4719101123596
+INFO - 381.0_2020-11-20: Shorting 0.0 shares at 0.56 | Going long 1694.9152542372883 shares at 0.59
+INFO - Transaction Net Value: -1000.0
+INFO - 374.0_2020-11-23: Shorting 0.0 shares at 1.77 | Going long 540.5405405405405 shares at 1.85
+INFO - Transaction Net Value: -1000.0
+INFO - 378.0_2020-11-18: Shorting 0.0 shares at 0.65 | Going long 1428.5714285714287 shares at 0.7
+INFO - Transaction Net Value: -1000.0
+INFO - 380.0_2020-11-27: Shorting 0.0 shares at 1.04 | Going long 925.9259259259259 shares at 1.09
+INFO - Transaction Net Value: -1009.2592592592592
+INFO - 381.0_2020-11-27: Shorting 0.0 shares at 0.92 | Going long 1041.6666666666667 shares at 0.96
+INFO - Transaction Net Value: -1000.0
+INFO - 371.0_2020-11-25: Shorting 0.0 shares at 2.98 | Going long 325.73289902280135 shares at 3.07
+INFO - Transaction Net Value: -1000.0000000000001
+WARNING - The trade order: ('400.0_2020-11-23', 0.0, 14285.714285714284) is not valid!
+INFO - 385.0_2020-11-25: Shorting 0.0 shares at 0.49 | Going long 1886.7924528301885 shares at 0.54
+INFO - Transaction Net Value: -1018.8679245283018
+INFO - 370.0_2020-11-25: Shorting 0.0 shares at 3.34 | Going long 296.7359050445104 shares at 3.43
+INFO - Transaction Net Value: -1017.8041543026707
+INFO - 376.0_2020-11-27: Shorting 0.0 shares at 1.73 | Going long 520.8333333333334 shares at 1.79
+INFO - Transaction Net Value: -932.2916666666667
+INFO - 380.0_2020-11-30: Shorting 0.0 shares at 1.19 | Going long 813.0081300813008 shares at 1.24
+INFO - Transaction Net Value: -1008.130081300813
+INFO - 371.0_2020-11-30: Shorting 0.0 shares at 3.38 | Going long 289.01734104046244 shares at 3.46
+INFO - Transaction Net Value: -1000.0
+INFO - 400.0_2020-11-30: Shorting 0.0 shares at 0.12 | Going long 7142.857142857142 shares at 0.13
+INFO - Transaction Net Value: -928.5714285714286
+INFO - 380.0_2020-11-18: Shorting 0.0 shares at 0.47 | Going long 1960.7843137254902 shares at 0.51
+INFO - Transaction Net Value: -1000.0
+INFO - 379.0_2020-11-18: Shorting 0.0 shares at 0.55 | Going long 1724.1379310344828 shares at 0.59
+INFO - Transaction Net Value: -1017.2413793103448
+INFO - 386.0_2020-11-25: Shorting 0.0 shares at 0.43 | Going long 2127.6595744680853 shares at 0.47
+INFO - Transaction Net Value: -1000.0
+INFO - 382.0_2020-11-16: Shorting 0.0 shares at 0.23 | Going long 4000.0 shares at 0.25
+INFO - Transaction Net Value: -1000.0
+INFO - 375.0_2020-11-30: Shorting 0.0 shares at 2.16 | Going long 454.5454545454545 shares at 2.23
+INFO - Transaction Net Value: -1013.6363636363635
+INFO - 405.0_2020-11-30: Shorting 0.0 shares at 0.07 | Going long 14285.714285714284 shares at 0.08
+INFO - Transaction Net Value: -1142.857142857143
+INFO - 377.0_2020-11-20: Shorting 0.0 shares at 1.01 | Going long 952.3809523809523 shares at 1.05
+INFO - Transaction Net Value: -1000.0
+INFO - 378.0_2020-11-25: Shorting 0.0 shares at 1.24 | Going long 763.3587786259542 shares at 1.31
+INFO - Transaction Net Value: -1000.0
+INFO - 386.0_2020-11-20: Shorting 0.0 shares at 0.28 | Going long 3333.3333333333335 shares at 0.3
+INFO - Transaction Net Value: -1000.0
+INFO - 375.0_2020-11-23: Shorting 0.0 shares at 1.55 | Going long 617.283950617284 shares at 1.62
+INFO - Transaction Net Value: -1000.0000000000001
+INFO - 386.0_2020-11-18: Shorting 0.0 shares at 0.19 | Going long 4761.904761904762 shares at 0.21
+INFO - Transaction Net Value: -1000.0000000000001
+INFO - 377.0_2020-11-27: Shorting 0.0 shares at 1.52 | Going long 632.9113924050632 shares at 1.58
+INFO - Transaction Net Value: -999.9999999999999
+INFO - 379.0_2020-11-23: Shorting 0.0 shares at 0.88 | Going long 1075.268817204301 shares at 0.93
+INFO - Transaction Net Value: -1000.0
+INFO - 382.0_2020-11-20: Shorting 0.0 shares at 0.5 | Going long 1923.076923076923 shares at 0.52
+INFO - Transaction Net Value: -1000.0
+INFO - 378.0_2020-11-27: Shorting 0.0 shares at 1.35 | Going long 714.2857142857143 shares at 1.4
+INFO - Transaction Net Value: -1000.0
+INFO - 390.0_2020-11-23: Shorting 0.0 shares at 0.2 | Going long 4545.454545454545 shares at 0.22
+INFO - Transaction Net Value: -999.9999999999999
+INFO - 376.0_2020-11-25: Shorting 0.0 shares at 1.61 | Going long 591.7159763313609 shares at 1.69
+INFO - Transaction Net Value: -1000.0
+INFO - 380.0_2020-11-16: Shorting 0.0 shares at 0.33 | Going long 2857.1428571428573 shares at 0.35
+INFO - Transaction Net Value: -1000.0
+INFO - 370.0_2020-11-23: Shorting 0.0 shares at 2.95 | Going long 326.797385620915 shares at 3.05
+INFO - Transaction Net Value: -996.7320261437907
+INFO - 386.0_2020-11-27: Shorting 0.0 shares at 0.48 | Going long 1960.7843137254902 shares at 0.51
+INFO - Transaction Net Value: -1000.0
+INFO - 388.0_2020-11-20: Shorting 0.0 shares at 0.21 | Going long 4347.826086956522 shares at 0.23
+INFO - Transaction Net Value: -1000.0000000000001
+INFO - 405.0_2020-11-27: Shorting 0.0 shares at 0.06 | Going long 14285.714285714284 shares at 0.07
+INFO - Transaction Net Value: -1000.0
+WARNING - The trade order: ('376.0_2020-11-18', 0.0, 1086.9565217391305) is not valid!
+INFO - 385.0_2020-11-27: Shorting 0.0 shares at 0.55 | Going long 1724.1379310344828 shares at 0.58
+INFO - Transaction Net Value: -1000.0
+INFO - 379.0_2020-11-20: Shorting 0.0 shares at 0.76 | Going long 1298.7012987012986 shares at 0.79
+INFO - Transaction Net Value: -1025.9740259740258
+INFO - 374.0_2020-11-18: Shorting 0.0 shares at 1.25 | Going long 763.3587786259542 shares at 1.31
+INFO - Transaction Net Value: -1000.0
+INFO - 385.0_2020-11-23: Shorting 0.0 shares at 0.38 | Going long 2380.952380952381 shares at 0.42
+INFO - Transaction Net Value: -1000.0000000000001
+INFO - 400.0_2020-11-25: Shorting 0.0 shares at 0.08 | Going long 10000.0 shares at 0.1
+INFO - Transaction Net Value: -1000.0
+INFO - 375.0_2020-11-16: Shorting 0.0 shares at 0.81 | Going long 1204.8192771084339 shares at 0.84
+INFO - Transaction Net Value: -1012.0481927710845
+INFO - 368.0_2020-11-30: Shorting 0.0 shares at 4.6 | Going long 213.21961620469082 shares at 4.69
+INFO - Transaction Net Value: -1000.0
+INFO - 374.0_2020-11-25: Shorting 0.0 shares at 2.07 | Going long 462.96296296296293 shares at 2.16
+INFO - Transaction Net Value: -1000.0
+INFO - 377.0_2020-11-30: Shorting 0.0 shares at 1.71 | Going long 564.9717514124294 shares at 1.77
+INFO - Transaction Net Value: -1000.0
+INFO - 395.0_2020-11-27: Shorting 0.0 shares at 0.17 | Going long 6250.0 shares at 0.19
+INFO - Transaction Net Value: -1187.5
+INFO - 375.0_2020-11-18: Shorting 0.0 shares at 1.06 | Going long 909.090909090909 shares at 1.12
+INFO - Transaction Net Value: -1018.1818181818181
+INFO - 381.0_2020-11-23: Shorting 0.0 shares at 0.67 | Going long 1408.4507042253522 shares at 0.71
+INFO - Transaction Net Value: -1000.0
+INFO - 387.0_2020-11-27: Shorting 0.0 shares at 0.42 | Going long 2173.913043478261 shares at 0.46
+INFO - Transaction Net Value: -1000.0000000000001
+INFO - 400.0_2020-11-27: Shorting 0.0 shares at 0.1 | Going long 9090.90909090909 shares at 0.11
+INFO - Transaction Net Value: -999.9999999999999
+WARNING - The trade order: ('380.0_2020-11-20', 0.0, 1538.4615384615383) is not valid!
+INFO - 375.0_2020-11-25: Shorting 0.0 shares at 1.83 | Going long 523.5602094240838 shares at 1.91
+INFO - Transaction Net Value: -1000.0000000000001
+INFO - 382.0_2020-11-27: Shorting 0.0 shares at 0.81 | Going long 1176.4705882352941 shares at 0.85
+INFO - Transaction Net Value: -1000.0
+INFO - 376.0_2020-11-30: Shorting 0.0 shares at 1.93 | Going long 502.51256281407035 shares at 1.99
+INFO - Transaction Net Value: -1000.0
+INFO - 372.0_2020-11-25: Shorting 0.0 shares at 2.65 | Going long 364.963503649635 shares at 2.74
+INFO - Transaction Net Value: -1000.0
+INFO - 374.0_2020-11-16: Shorting 0.0 shares at 0.97 | Going long 1010.1010101010102 shares at 1.0
+INFO - Transaction Net Value: -1010.1010101010102
+INFO - 372.0_2020-11-23: Shorting 0.0 shares at 2.3 | Going long 418.41004184100416 shares at 2.39
+INFO - Transaction Net Value: -1000.0
+INFO - 390.0_2020-11-20: Shorting 0.0 shares at 0.16 | Going long 5882.35294117647 shares at 0.18
+INFO - Transaction Net Value: -1058.8235294117646
+INFO - 379.0_2020-11-16: Shorting 0.0 shares at 0.39 | Going long 2439.0243902439024 shares at 0.41
+INFO - Transaction Net Value: -999.9999999999999
+INFO - 386.0_2020-11-23: Shorting 0.0 shares at 0.33 | Going long 2702.702702702703 shares at 0.37
+INFO - Transaction Net Value: -1000.0000000000001
+INFO - 395.0_2020-11-25: Shorting 0.0 shares at 0.14 | Going long 5882.35294117647 shares at 0.17
+INFO - Transaction Net Value: -1000.0
+INFO - 377.0_2020-11-18: Shorting 0.0 shares at 0.77 | Going long 1234.567901234568 shares at 0.81
+INFO - Transaction Net Value: -1000.0000000000001
+INFO - 384.0_2020-11-27: Shorting 0.0 shares at 0.62 | Going long 1515.151515151515 shares at 0.66
+INFO - Transaction Net Value: -1000.0
+INFO - 381.0_2020-11-16: Shorting 0.0 shares at 0.28 | Going long 3448.2758620689656 shares at 0.29
+INFO - Transaction Net Value: -1000.0
+INFO - 373.0_2020-11-25: Shorting 0.0 shares at 2.35 | Going long 411.52263374485597 shares at 2.43
+INFO - Transaction Net Value: -1000.0000000000001
+INFO - 378.0_2020-11-30: Shorting 0.0 shares at 1.52 | Going long 632.9113924050632 shares at 1.58
+INFO - Transaction Net Value: -999.9999999999999
+INFO - 369.0_2020-11-30: Shorting 0.0 shares at 4.17 | Going long 244.49877750611248 shares at 4.25
+INFO - Transaction Net Value: -1039.119804400978
+INFO - 387.0_2020-11-20: Shorting 0.0 shares at 0.24 | Going long 3703.7037037037035 shares at 0.27
+INFO - Transaction Net Value: -1000.0
+INFO - 383.0_2020-11-27: Shorting 0.0 shares at 0.71 | Going long 1333.3333333333333 shares at 0.75
+INFO - Transaction Net Value: -1000.0
+INFO - 371.0_2020-11-27: Shorting 0.0 shares at 3.12 | Going long 314.4654088050314 shares at 3.19
+INFO - Transaction Net Value: -1003.1446540880502
+INFO - 385.0_2020-11-20: Shorting 0.0 shares at 0.33 | Going long 2857.1428571428573 shares at 0.35
+INFO - Transaction Net Value: -1000.0
+INFO - 375.0_2020-11-20: Shorting 0.0 shares at 1.35 | Going long 735.2941176470588 shares at 1.38
+INFO - Transaction Net Value: -1014.705882352941
+INFO - 382.0_2020-11-18: Shorting 0.0 shares at 0.34 | Going long 2631.578947368421 shares at 0.38
+INFO - Transaction Net Value: -999.9999999999999
+INFO - 377.0_2020-11-23: Shorting 0.0 shares at 1.17 | Going long 813.0081300813008 shares at 1.23
+INFO - Transaction Net Value: -1000.0
+INFO - 378.0_2020-11-16: Shorting 0.0 shares at 0.46 | Going long 2040.8163265306123 shares at 0.49
+INFO - Transaction Net Value: -1000.0
+INFO - 376.0_2020-11-16: Shorting 0.0 shares at 0.67 | Going long 1428.5714285714287 shares at 0.7
+INFO - Transaction Net Value: -1000.0
+INFO - 385.0_2020-11-18: Shorting 0.0 shares at 0.22 | Going long 4166.666666666667 shares at 0.24
+INFO - Transaction Net Value: -1000.0
+INFO - 381.0_2020-11-30: Shorting 0.0 shares at 1.06 | Going long 909.090909090909 shares at 1.1
+INFO - Transaction Net Value: -1000.0
+INFO - 373.0_2020-11-20: Shorting 0.0 shares at 1.79 | Going long 543.4782608695652 shares at 1.85
+INFO - Transaction Net Value: -1005.4347826086957
+INFO - 390.0_2020-11-30: Shorting 0.0 shares at 0.35 | Going long 2631.578947368421 shares at 0.38
+INFO - Transaction Net Value: -999.9999999999999
+INFO - 395.0_2020-11-23: Shorting 0.0 shares at 0.11 | Going long 7692.307692307692 shares at 0.13
+INFO - Transaction Net Value: -1000.0
+INFO - 383.0_2020-11-18: Shorting 0.0 shares at 0.29 | Going long 3030.30303030303 shares at 0.33
+INFO - Transaction Net Value: -1000.0
+INFO - 384.0_2020-11-30: Shorting 0.0 shares at 0.73 | Going long 1298.7012987012986 shares at 0.77
+INFO - Transaction Net Value: -999.9999999999999
+INFO - 369.0_2020-11-27: Shorting 0.0 shares at 3.87 | Going long 252.52525252525254 shares at 3.96
+INFO - Transaction Net Value: -1000.0
+INFO - 370.0_2020-11-27: Shorting 0.0 shares at 3.48 | Going long 282.4858757062147 shares at 3.56
+INFO - Transaction Net Value: -1005.6497175141243
+INFO - 373.0_2020-11-23: Shorting 0.0 shares at 2.02 | Going long 469.4835680751174 shares at 2.11
+INFO - Transaction Net Value: -990.6103286384975
+INFO - 374.0_2020-11-30: Shorting 0.0 shares at 2.43 | Going long 400.0 shares at 2.5
+INFO - Transaction Net Value: -1000.0
+INFO - 384.0_2020-11-23: Shorting 0.0 shares at 0.44 | Going long 2083.3333333333335 shares at 0.48
+INFO - Transaction Net Value: -1000.0
+INFO - 371.0_2020-11-23: Shorting 0.0 shares at 2.61 | Going long 370.3703703703703 shares at 2.7
+INFO - Transaction Net Value: -999.9999999999999
+INFO - 380.0_2020-11-25: Shorting 0.0 shares at 0.96 | Going long 1020.4081632653061 shares at 1.01
+INFO - Transaction Net Value: -1030.6122448979593
+INFO - 383.0_2020-11-25: Shorting 0.0 shares at 0.64 | Going long 1449.2753623188407 shares at 0.69
+INFO - Transaction Net Value: -1000.0
+INFO - 378.0_2020-11-23: Shorting 0.0 shares at 1.02 | Going long 934.5794392523364 shares at 1.07
+INFO - Transaction Net Value: -1000.0
+WARNING - The trade order: ('385.0_2020-11-30', 0.0, 1492.5373134328358) is not valid!
+INFO - 382.0_2020-11-30: Shorting 0.0 shares at 0.93 | Going long 1020.4081632653061 shares at 0.98
+INFO - Transaction Net Value: -1000.0
+INFO - 382.0_2020-11-25: Shorting 0.0 shares at 0.73 | Going long 1265.8227848101264 shares at 0.79
+INFO - Transaction Net Value: -999.9999999999999
+WARNING - The trade order: ('372.0_2020-11-20', 0.0, 480.7692307692308) is not valid!
+WARNING - The trade order: ('372.0_2020-11-30', 0.0, 325.73289902280135) is not valid!
+WARNING - The trade order: ('376.0_2020-11-23', 0.0, 709.2198581560284) is not valid!
+WARNING - The trade order: ('395.0_2020-11-30', 0.0, 4545.454545454545) is not valid!
+WARNING - The trade order: ('384.0_2020-11-25', 0.0, 1639.344262295082) is not valid!
+WARNING - The trade order: ('374.0_2020-11-20', 0.0, 641.025641025641) is not valid!
+WARNING - The trade order: ('381.0_2020-11-18', 0.0, 2272.7272727272725) is not valid!
+WARNING - The trade order: ('374.0_2020-11-27', 0.0, 446.4285714285714) is not valid!
+WARNING - The trade order: ('376.0_2020-11-20', 0.0, 840.3361344537816) is not valid!
+WARNING - The trade order: ('377.0_2020-11-16', 0.0, 1785.7142857142856) is not valid!
+WARNING - The trade order: ('390.0_2020-11-27', 0.0, 3225.8064516129034) is not valid!
+WARNING - The trade order: ('384.0_2020-11-18', 0.0, 3571.428571428571) is not valid!
+WARNING - The trade order: ('375.0_2020-11-27', 0.0, 497.5124378109453) is not valid!
+WARNING - The trade order: ('379.0_2020-11-25', 0.0, 869.5652173913044) is not valid!
+WARNING - The trade order: ('383.0_2020-11-23', 0.0, 1851.8518518518517) is not valid!
+WARNING - The trade order: ('373.0_2020-11-27', 0.0, 392.15686274509807) is not valid!
+WARNING - The trade order: ('381.0_2020-11-25', 0.0, 1123.5955056179776) is not valid!
+WARNING - The trade order: ('383.0_2020-11-30', 0.0, 1149.4252873563219) is not valid!
+WARNING - The trade order: ('373.0_2020-11-30', 0.0, 358.42293906810033) is not valid!
+WARNING - The trade order: ('383.0_2020-11-20', 0.0, 2222.222222222222) is not valid!
+WARNING - The trade order: ('383.0_2020-11-16', 0.0, 4761.904761904762) is not valid!
+WARNING - The trade order: ('372.0_2020-11-27', 0.0, 349.65034965034965) is not valid!
+WARNING - The trade order: ('384.0_2020-11-20', 0.0, 2564.102564102564) is not valid!
+INFO - #####
+INFO - Liquid Cash: 490.2306723698831
+INFO - Current Value: 93895.1813198035
+INFO - #####
+INFO - ####2020-11-09 09:32:00####
+WARNING - The trade order: ('380.0_2020-11-16', 0.0, 3125.0) is not valid!
+WARNING - The trade order: ('384.0_2020-11-20', 0.0, 2777.777777777778) is not valid!
+WARNING - The trade order: ('377.0_2020-11-16', 0.0, 1851.8518518518517) is not valid!
+WARNING - The trade order: ('386.0_2020-11-27', 0.0, 2083.3333333333335) is not valid!
+WARNING - The trade order: ('381.0_2020-11-25', 0.0, 1190.4761904761906) is not valid!
+WARNING - The trade order: ('387.0_2020-11-27', 0.0, 2380.952380952381) is not valid!
+WARNING - The trade order: ('385.0_2020-11-27', 0.0, 1851.8518518518517) is not valid!
+WARNING - The trade order: ('375.0_2020-11-16', 0.0, 1298.7012987012986) is not valid!
+WARNING - The trade order: ('371.0_2020-11-23', 0.0, 400.0) is not valid!
+WARNING - The trade order: ('375.0_2020-11-25', 0.0, 552.4861878453039) is not valid!
+WARNING - The trade order: ('385.0_2020-11-23', 0.0, 2631.578947368421) is not valid!
+WARNING - The trade order: ('380.0_2020-11-20', 0.0, 1639.344262295082) is not valid!
+WARNING - The trade order: ('381.0_2020-11-23', 0.0, 1515.151515151515) is not valid!
+WARNING - The trade order: ('384.0_2020-11-27', 0.0, 1612.9032258064517) is not valid!
+WARNING - The trade order: ('373.0_2020-11-30', 0.0, 384.6153846153846) is not valid!
+WARNING - The trade order: ('384.0_2020-11-23', 0.0, 2272.7272727272725) is not valid!
+WARNING - The trade order: ('400.0_2020-11-25', 0.0, 11111.111111111111) is not valid!
+WARNING - The trade order: ('368.0_2020-11-30', 0.0, 222.71714922048997) is not valid!
+WARNING - The trade order: ('383.0_2020-11-23', 0.0, 2000.0) is not valid!
+WARNING - The trade order: ('378.0_2020-11-25', 0.0, 813.0081300813008) is not valid!
+WARNING - The trade order: ('386.0_2020-11-25', 0.0, 2272.7272727272725) is not valid!
+WARNING - The trade order: ('386.0_2020-11-20', 0.0, 3571.428571428571) is not valid!
+WARNING - The trade order: ('383.0_2020-11-20', 0.0, 2380.952380952381) is not valid!
+WARNING - The trade order: ('378.0_2020-11-27', 0.0, 757.5757575757575) is not valid!
+WARNING - The trade order: ('373.0_2020-11-27', 0.0, 413.22314049586777) is not valid!
+WARNING - The trade order: ('375.0_2020-11-30', 0.0, 467.2897196261682) is not valid!
+WARNING - The trade order: ('382.0_2020-11-23', 0.0, 1724.1379310344828) is not valid!
+WARNING - The trade order: ('370.0_2020-11-30', 0.0, 275.4820936639118) is not valid!
+WARNING - The trade order: ('377.0_2020-11-25', 0.0, 714.2857142857143) is not valid!
+WARNING - The trade order: ('372.0_2020-11-27', 0.0, 367.6470588235294) is not valid!
+WARNING - The trade order: ('375.0_2020-11-27', 0.0, 523.5602094240838) is not valid!
+WARNING - The trade order: ('385.0_2020-11-25', 0.0, 2040.8163265306123) is not valid!
+WARNING - The trade order: ('371.0_2020-11-30', 0.0, 299.4011976047904) is not valid!
+WARNING - The trade order: ('377.0_2020-11-27', 0.0, 671.1409395973154) is not valid!
+WARNING - The trade order: ('382.0_2020-11-20', 0.0, 2000.0) is not valid!
+WARNING - The trade order: ('374.0_2020-11-27', 0.0, 478.4688995215311) is not valid!
+WARNING - The trade order: ('384.0_2020-11-25', 0.0, 1754.3859649122808) is not valid!
+WARNING - The trade order: ('379.0_2020-11-25', 0.0, 925.9259259259259) is not valid!
+WARNING - The trade order: ('376.0_2020-11-27', 0.0, 591.7159763313609) is not valid!
+WARNING - The trade order: ('379.0_2020-11-16', 0.0, 2631.578947368421) is not valid!
+WARNING - The trade order: ('376.0_2020-11-30', 0.0, 529.1005291005291) is not valid!
+WARNING - The trade order: ('382.0_2020-11-27', 0.0, 1265.8227848101264) is not valid!
+WARNING - The trade order: ('372.0_2020-11-30', 0.0, 336.70033670033666) is not valid!
+WARNING - The trade order: ('382.0_2020-11-25', 0.0, 1369.86301369863) is not valid!
+WARNING - The trade order: ('370.0_2020-11-27', 0.0, 304.8780487804878) is not valid!
+WARNING - The trade order: ('395.0_2020-11-25', 0.0, 6250.0) is not valid!
+WARNING - The trade order: ('383.0_2020-11-27', 0.0, 1428.5714285714287) is not valid!
+WARNING - The trade order: ('369.0_2020-11-27', 0.0, 264.55026455026456) is not valid!
+WARNING - The trade order: ('387.0_2020-11-20', 0.0, 3846.153846153846) is not valid!
+WARNING - The trade order: ('369.0_2020-11-30', 0.0, 246.30541871921184) is not valid!
+WARNING - The trade order: ('376.0_2020-11-23', 0.0, 757.5757575757575) is not valid!
+WARNING - The trade order: ('380.0_2020-11-27', 0.0, 1010.1010101010102) is not valid!
+WARNING - The trade order: ('376.0_2020-11-16', 0.0, 1538.4615384615383) is not valid!
+WARNING - The trade order: ('371.0_2020-11-27', 0.0, 333.3333333333333) is not valid!
+WARNING - The trade order: ('379.0_2020-11-27', 0.0, 862.0689655172414) is not valid!
+WARNING - The trade order: ('381.0_2020-11-20', 0.0, 1851.8518518518517) is not valid!
+WARNING - The trade order: ('380.0_2020-11-25', 0.0, 1052.6315789473686) is not valid!
+WARNING - The trade order: ('383.0_2020-11-25', 0.0, 1562.5) is not valid!
+WARNING - The trade order: ('376.0_2020-11-25', 0.0, 628.9308176100628) is not valid!
+WARNING - The trade order: ('374.0_2020-11-30', 0.0, 420.1680672268908) is not valid!
+WARNING - The trade order: ('381.0_2020-11-27', 0.0, 1111.111111111111) is not valid!
+WARNING - The trade order: ('374.0_2020-11-23', 0.0, 574.7126436781609) is not valid!
+WARNING - The trade order: ('385.0_2020-11-20', 0.0, 3225.8064516129034) is not valid!
+WARNING - The trade order: ('377.0_2020-11-23', 0.0, 869.5652173913044) is not valid!
+WARNING - The trade order: ('390.0_2020-11-25', 0.0, 3703.7037037037035) is not valid!
+WARNING - The trade order: ('378.0_2020-11-16', 0.0, 2173.913043478261) is not valid!
+WARNING - The trade order: ('377.0_2020-11-20', 0.0, 1052.6315789473686) is not valid!
+WARNING - The trade order: ('379.0_2020-11-18', 0.0, 1724.1379310344828) is not valid!
+WARNING - The trade order: ('382.0_2020-11-18', 0.0, 2941.176470588235) is not valid!
+WARNING - The trade order: ('390.0_2020-11-23', 0.0, 4761.904761904762) is not valid!
+WARNING - The trade order: ('390.0_2020-11-27', 0.0, 3448.2758620689656) is not valid!
+WARNING - The trade order: ('378.0_2020-11-23', 0.0, 1000.0) is not valid!
+WARNING - The trade order: ('379.0_2020-11-23', 0.0, 1149.4252873563219) is not valid!
+WARNING - The trade order: ('382.0_2020-11-16', 0.0, 4347.826086956522) is not valid!
+WARNING - The trade order: ('385.0_2020-11-30', 0.0, 1587.3015873015872) is not valid!
+WARNING - The trade order: ('405.0_2020-11-30', 0.0, 12500.0) is not valid!
+WARNING - The trade order: ('375.0_2020-11-23', 0.0, 657.8947368421052) is not valid!
+WARNING - The trade order: ('371.0_2020-11-25', 0.0, 341.29692832764505) is not valid!
+WARNING - The trade order: ('380.0_2020-11-23', 0.0, 1315.7894736842104) is not valid!
+WARNING - The trade order: ('378.0_2020-11-20', 0.0, 1190.4761904761906) is not valid!
+WARNING - The trade order: ('379.0_2020-11-30', 0.0, 757.5757575757575) is not valid!
+WARNING - The trade order: ('410.0_2020-11-30', 0.0, 20000.0) is not valid!
+WARNING - The trade order: ('378.0_2020-11-18', 0.0, 1587.3015873015872) is not valid!
+WARNING - The trade order: ('381.0_2020-11-18', 0.0, 2500.0) is not valid!
+WARNING - The trade order: ('395.0_2020-11-30', 0.0, 4761.904761904762) is not valid!
+WARNING - The trade order: ('385.0_2020-11-18', 0.0, 4545.454545454545) is not valid!
+WARNING - The trade order: ('390.0_2020-11-30', 0.0, 2857.1428571428573) is not valid!
+WARNING - The trade order: ('381.0_2020-11-30', 0.0, 961.5384615384615) is not valid!
+WARNING - The trade order: ('400.0_2020-11-23', 0.0, 16666.666666666668) is not valid!
+WARNING - The trade order: ('375.0_2020-11-20', 0.0, 793.6507936507936) is not valid!
+WARNING - The trade order: ('400.0_2020-11-30', 0.0, 8333.333333333334) is not valid!
+WARNING - The trade order: ('380.0_2020-11-30', 0.0, 826.4462809917355) is not valid!
+WARNING - The trade order: ('370.0_2020-11-25', 0.0, 305.8103975535168) is not valid!
+WARNING - The trade order: ('395.0_2020-11-23', 0.0, 8333.333333333334) is not valid!
+WARNING - The trade order: ('376.0_2020-11-20', 0.0, 854.7008547008547) is not valid!
+WARNING - The trade order: ('380.0_2020-11-18', 0.0, 2272.7272727272725) is not valid!
+WARNING - The trade order: ('376.0_2020-11-18', 0.0, 1086.9565217391305) is not valid!
+WARNING - The trade order: ('379.0_2020-11-20', 0.0, 1333.3333333333333) is not valid!
+WARNING - The trade order: ('370.0_2020-11-23', 0.0, 344.82758620689657) is not valid!
+WARNING - The trade order: ('383.0_2020-11-30', 0.0, 1234.567901234568) is not valid!
+WARNING - The trade order: ('405.0_2020-11-27', 0.0, 14285.714285714284) is not valid!
+WARNING - The trade order: ('373.0_2020-11-20', 0.0, 584.7953216374269) is not valid!
+WARNING - The trade order: ('381.0_2020-11-16', 0.0, 3703.7037037037035) is not valid!
+WARNING - The trade order: ('373.0_2020-11-25', 0.0, 432.9004329004329) is not valid!
+WARNING - The trade order: ('378.0_2020-11-30', 0.0, 671.1409395973154) is not valid!
+WARNING - The trade order: ('374.0_2020-11-25', 0.0, 487.80487804878055) is not valid!
+WARNING - The trade order: ('384.0_2020-11-18', 0.0, 3846.153846153846) is not valid!
+WARNING - The trade order: ('375.0_2020-11-18', 0.0, 990.09900990099) is not valid!
+WARNING - The trade order: ('395.0_2020-11-27', 0.0, 5882.35294117647) is not valid!
+WARNING - The trade order: ('377.0_2020-11-30', 0.0, 595.2380952380953) is not valid!
+WARNING - The trade order: ('374.0_2020-11-20', 0.0, 684.931506849315) is not valid!
+WARNING - The trade order: ('388.0_2020-11-20', 0.0, 4545.454545454545) is not valid!
+WARNING - The trade order: ('400.0_2020-11-27', 0.0, 10000.0) is not valid!
+WARNING - The trade order: ('372.0_2020-11-23', 0.0, 442.47787610619474) is not valid!
+WARNING - The trade order: ('372.0_2020-11-25', 0.0, 384.6153846153846) is not valid!
+WARNING - The trade order: ('373.0_2020-11-23', 0.0, 505.0505050505051) is not valid!
+WARNING - The trade order: ('377.0_2020-11-18', 0.0, 1351.3513513513515) is not valid!
+WARNING - The trade order: ('383.0_2020-11-18', 0.0, 3333.3333333333335) is not valid!
+WARNING - The trade order: ('390.0_2020-11-20', 0.0, 6250.0) is not valid!
+WARNING - The trade order: ('382.0_2020-11-30', 0.0, 1086.9565217391305) is not valid!
+WARNING - The trade order: ('386.0_2020-11-23', 0.0, 2941.176470588235) is not valid!
+WARNING - The trade order: ('384.0_2020-11-30', 0.0, 1388.888888888889) is not valid!
+WARNING - The trade order: ('372.0_2020-11-20', 0.0, 515.4639175257732) is not valid!
+INFO - #####
+INFO - Liquid Cash: 490.2306723698831
+INFO - Current Value: 87503.77987520416
+INFO - #####
+WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
