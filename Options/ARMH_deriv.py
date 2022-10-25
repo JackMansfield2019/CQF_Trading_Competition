@@ -2,14 +2,15 @@ import enum
 import numpy as np 
 import random
 import pandas as pd 
-import numpy as np 
 #import Tkinter
 import matplotlib as mpl
-mpl.use('Agg')
+
 import matplotlib.pyplot as plt
 import math
 import datetime
 from datetime import datetime
+
+
 
 import py_vollib 
 from py_vollib.black_scholes  import black_scholes as bs
@@ -27,6 +28,7 @@ import pandas_datareader.data as web
 from scipy.stats import norm
 from arch import arch_model
 from arch.__future__ import reindexing
+
 """
 ## Cornell Trading Competition : Derivatives Case Strategy ##
 
@@ -185,7 +187,7 @@ class Strategy:
 
     #start by making everything annualized. 
     def make_trades(self):
-        
+
         #tuning variables:
         p = 1.0 # p variable for GARCH model
         q = 1.0 # q variable for GARCH model
@@ -201,9 +203,7 @@ class Strategy:
         trades = []
         self.counter2 += 1
         if (self.counter2 > 200):
-            print("minute: ",self.counter2)
-            return[]
-            #return [( 'underlying' , 1000000 , 0.0) ]
+            return [( 'underlying' , 1000000 , 0.0) ]
 
         if(len(self.minute_returns) >= 0):
             
@@ -273,7 +273,7 @@ class Strategy:
                 #find & print the market price
                 if(float(row[7]) != 0.0):
                     market_price = float(row[7])
-                #    print("Market close:    ",market_price)
+                    #print("Market close:    ",market_price)
                 else:
                     market_price = float(row[12])
                 #print("Market ask:      ",market_price)

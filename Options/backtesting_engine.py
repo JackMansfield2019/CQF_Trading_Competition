@@ -32,12 +32,12 @@ class BackTestEngine:
         if minute == '16:15:00':
             # Iterate over all open options and close them
             for option in self.portfolio.copy():
-                if option.split('_')[1] == date:
+                if option != "underlying" and option.split('_')[1] == date:
                     long_alpha = max(0, underlying[1] - float(option.split('_')[0]))
                     # Assumes you have to buy the underlying at execution for a short
                     short_alpha = max(0, underlying[3] - float(option.split('_')[0]))
                     # Executing positions
-                    pnl = long_alpha * self.portfolio[option] if self.portfolio[option] > 0 else\
+                    pnl = long_alpha * self.portfolio[option] if self.portfolio[option] > 0 else \
                         short_alpha * self.portfolio[option]
                     self.liquid_cash += pnl
                     logging.info("Exercising " + option + ": Settled position of " + str(self.portfolio[option]) +
@@ -55,17 +55,23 @@ class BackTestEngine:
         trades = self.strategy.make_trades()
         for trade in trades:
             if self._is_valid_trade(trade, offered_options):
-                logging.info(trade[0]+": Shorting " + str(trade[1]) +" shares at " + str(offered_options[trade[0]][1]) +\
-                      " | Going long " + str(trade[2]) +" shares at " + str(offered_options[trade[0]][3]))
-                logging.info("Transaction Net Value: "+str(offered_options[trade[0]][1] * trade[1] -
-                                                        offered_options[trade[0]][3] * trade[2]))
+                # Converting 1 option to 100 shares
+                sell_share_volume = trade[1] * 100
+                long_share_volume = trade[2] * 100
+                # Informing of and executing trade
+                logging.info(trade[0] + ": Shorting " + str(sell_share_volume) + " shares at " + \
+                             str(offered_options[trade[0]][1]) + " | Going long " + str(long_share_volume) + \
+                             " shares at " + str(offered_options[trade[0]][3]))
+                logging.info("Transaction Net Value: " + str(offered_options[trade[0]][1] * sell_share_volume -
+                                                             offered_options[trade[0]][3] * long_share_volume))
                 # Registers the trade and its affect on liquidity
-                self.liquid_cash += (offered_options[trade[0]][1] * trade[1] - offered_options[trade[0]][3] * trade[2])
-                self.portfolio[trade[0]] = self.portfolio[trade[0]] + trade[2] - trade[1] if \
-                    trade[0] in self.portfolio else trade[2] - trade[1]
-                self.trades += (trade[1] + trade[2])
+                self.liquid_cash += \
+                    (offered_options[trade[0]][1] * sell_share_volume - offered_options[trade[0]][3] * long_share_volume)
+                self.portfolio[trade[0]] = self.portfolio[trade[0]] + long_share_volume - sell_share_volume if \
+                    trade[0] in self.portfolio else long_share_volume - sell_share_volume
+                self.trades += (sell_share_volume + long_share_volume)
             else:
-                logging.warning("The trade order: "+str(trade)+" is not valid!")
+                logging.warning("The trade order: " + str(trade) + " is not valid!")
                 if self.liquid_cash == 0:
                     logging.warning("No liquid cash")
 
@@ -99,15 +105,16 @@ class BackTestEngine:
                 if i == 0:
                     continue
                 # If the date has changed
-                if current_date != row[2]:
+                if current_date != row[1]:
                     # Call the strategy
                     self._call_strategy(current_date, raw_minute_data, offered_options)
                     # Register new data
-                    current_date = row[2]
-                    logging.info("####"+current_date+"####")
-                    offered_options, raw_minute_data = {'underlying': (1e10, float(row[16]), 1e10, float(row[17]))}, []
+                    current_date = row[1]
+                    logging.info("####" + current_date + "####")
+                    offered_options['underlying'] = (1e10, float(row[15]), 1e10, float(row[16]))
+                    raw_minute_data = []
                 # Dictionary of the volume and price of options (Bid Volume, Bid Price, Ask Volume, Ask Price)
-                offered_options[row[5] + "_" + row[4]] = (float(row[12]), float(row[13]), float(row[14]), float(row[15]))
+                offered_options[row[4] + "_" + row[3]] = (float(row[11]), float(row[12]), float(row[13]), float(row[14]))
                 # Append to raw_minute_data
                 raw_minute_data.append(row)
             # Submit any remaining data for the last minute of the file to the strategy
@@ -126,8 +133,8 @@ class BackTestEngine:
         self.historic_value.append(current_value)
         self.trade_arr.append(self.trades)
         logging.info("#####")
-        logging.info("Liquid Cash: "+str(self.liquid_cash))
-        logging.info("Current Value: "+str(current_value))
+        logging.info("Liquid Cash: " + str(self.liquid_cash))
+        logging.info("Current Value: " + str(current_value))
         logging.info("#####")
 
     # Plots a basic final PnL chart
@@ -137,12 +144,12 @@ class BackTestEngine:
         trade_ct = np.array(self.trade_arr)
         fig, axs = plt.subplots(2, 1, figsize=(10, 8), constrained_layout=True)
         fig.suptitle('Visual Representation of Strategy Performance', fontsize=16, color='#d24b65')
-        
-        peak = np.argmax(np.maximum.accumulate(y) - y) # end of the period
+
+        peak = np.argmax(np.maximum.accumulate(y) - y)  # end of the period
         trough = np.argmax(y[:peak])
 
         axs[0].plot(x, y, color='#d24b65')
-        axs[0].set_title(f"Returns: {100*(y[-1] - y[0])/y[0]:.2f}%, max drawdown: {100*(1-(y[trough]/y[peak])):.2f}%")
+        axs[0].set_title(f"Returns: {100 * (y[-1] - y[0]) / y[0]:.2f}%, max drawdown: {100 * (1 - (y[trough] / y[peak])):.2f}%")
         axs[0].scatter([peak, trough], [y[peak], y[trough]], color='blue')
         axs[0].set_xlabel('Time (mins)')
         axs[0].set_ylabel('Profit / Loss')
@@ -154,5 +161,5 @@ class BackTestEngine:
         plt.show()
 
 
-bt = BackTestEngine("data/new_data.csv")
+bt = BackTestEngine("data/eighth_data.csv")
 bt.run()
