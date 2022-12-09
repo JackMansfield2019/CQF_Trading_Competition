@@ -21,15 +21,16 @@
 ## Strategy 2
 1. implment py_vollib's implied volatility calulation 
 2. implement Black scholes
-3. if Black scholes value < market_ask && Delta < 0.4
+3. if Delta < 0.4
     short that call
 4. after 2 days of trading:
+
       buy 1000 units of underlying every minute
 ### Results 
 
 Total Trades: Trades: 1106
 
-![Capture1](https://user-images.githubusercontent.com/25088039/206803547-79156e3a-e960-4573-8b79-a4f460271afe.JPG)
+![Capture2](https://user-images.githubusercontent.com/25088039/206803845-29edb68a-b437-489d-9780-d683aa91303b.JPG)
 
 ## usage
   
